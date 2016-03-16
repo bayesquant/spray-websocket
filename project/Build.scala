@@ -40,6 +40,7 @@ object Build extends sbt.Build {
     resolvers ++= Seq(
       "typesafe repo" at "http://repo.typesafe.com/typesafe/releases/",
       "spray" at "http://repo.spray.io",
+      "maven.qiyi.virtual-releases" at "http://maven.qiyi.virtual/a/repository",
       "spray nightly" at "http://nightlies.spray.io/"))
 
   lazy val exampleSettings = basicSettings ++ noPublishing
