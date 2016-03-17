@@ -35,7 +35,7 @@ object Build extends sbt.Build {
     organization := "com.wandoulabs.akka",
     version := "0.1.5-SNAPSHOT",
     scalaVersion := "2.10.5",
-    crossScalaVersions := Seq("2.10.5", "2.11.7"), 
+    //crossScalaVersions := Seq("2.10.5", "2.11.7"), 
     scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
     resolvers ++= Seq(
       "typesafe repo" at "http://repo.typesafe.com/typesafe/releases/",
